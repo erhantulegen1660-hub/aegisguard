@@ -1,0 +1,14 @@
+name: AegisAuth
+version: 1.0.0
+main: ru.aegis.auth.AegisAuth
+api-version: '1.21'
+commands:
+  register:
+    description: Регистрация аккаунта
+    aliases: [reg]
+  login:
+    description: Вход в аккаунт
+    aliases: [l]
+  aegisauth:
+    description: Настройка точек спавна, куба и серверов
+    permission: aegisauth.admin

@@ -1,0 +1,9 @@
+# Настройки AegisAuth
+max-queue-size: 5
+min-password-length: 6
+
+# Режим переноса после входа:
+# teleport - телепортировать на точку spawn (можно в другой мир, например survival)
+# proxy - отправить на другой сервер через Velocity / BungeeCord
+transfer-mode: teleport
+target-proxy-server: survival
